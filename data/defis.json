@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "titre": "FizzBuzz",
+    "description": "Afficher les nombres de 1 à 100 : 'Fizz' si divisible par 3, 'Buzz' si divisible par 5, 'FizzBuzz' si les deux.",
+    "difficulte": "facile",
+    "points": 10
+  },
+  {
+    "id": 2,
+    "titre": "Palindrome",
+    "description": "Écrire une fonction qui vérifie si une chaîne est un palindrome (lecture identique dans les deux sens).",
+    "difficulte": "facile",
+    "points": 15
+  },
+  {
+    "id": 3,
+    "titre": "Anagramme",
+    "description": "Déterminer si deux mots sont des anagrammes l'un de l'autre.",
+    "difficulte": "facile",
+    "points": 20
+  },
+  {
+    "id": 4,
+    "titre": "Suite de Fibonacci",
+    "description": "Générer les N premiers termes de la suite de Fibonacci de façon efficace (sans récursion naïve).",
+    "difficulte": "moyen",
+    "points": 30
+  },
+  {
+    "id": 5,
+    "titre": "API REST CRUD",
+    "description": "Créer une API REST complète avec les opérations CRUD sur une ressource 'produits' en Express.js.",
+    "difficulte": "moyen",
+    "points": 40
+  },
+  {
+    "id": 6,
+    "titre": "Tri rapide (QuickSort)",
+    "description": "Implémenter l'algorithme QuickSort from scratch et comparer ses performances avec le tri natif.",
+    "difficulte": "moyen",
+    "points": 35
+  },
+  {
+    "id": 7,
+    "titre": "Authentification JWT",
+    "description": "Implémenter un système d'authentification avec inscription, connexion et protection de routes via JWT.",
+    "difficulte": "difficile",
+    "points": 60
+  },
+  {
+    "id": 8,
+    "titre": "WebSocket temps réel",
+    "description": "Créer un chat en temps réel avec Socket.io : salles, pseudos, et historique des 10 derniers messages.",
+    "difficulte": "difficile",
+    "points": 70
+  },
+  {
+    "id": 9,
+    "titre": "Graphe — chemin le plus court",
+    "description": "Implémenter l'algorithme de Dijkstra pour trouver le chemin le plus court dans un graphe pondéré.",
+    "difficulte": "difficile",
+    "points": 80
+  },
+  {
+    "id": 10,
+    "titre": "Mini interpréteur",
+    "description": "Écrire un interpréteur capable d'évaluer des expressions arithmétiques avec parenthèses, +, -, *, /.",
+    "difficulte": "expert",
+    "points": 100
+  }
+]
