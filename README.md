@@ -2,9 +2,21 @@
 
 API REST pour organiser des défis techniques entre participants et afficher un classement public.
 
+Projet académique réalisé en duo, 2025/2026.
+
 ---
 
 ## Installation et lancement
+
+### Avant le premier lancement
+
+Le fichier des participants n'est pas versionné (il contient des données de runtime). Il doit exister, avec une liste vide :
+
+```bash
+echo "[]" > data/participants.json
+```
+
+Sans ce fichier, les routes `/participants` et `/classement` renvoient une erreur. `data/validations.json` est créé automatiquement à la première validation. `data/defis.json` est fourni dans le dépôt.
 
 ### Sans Docker
 
@@ -130,8 +142,8 @@ curl http://localhost:3000/classement
 Résultat attendu :
 ```json
 [
-  { "rang": 1, "nom": "Alice", "points": 25, "defisValides": 2 },
-  { "rang": 2, "nom": "Bob",   "points": 10, "defisValides": 1 }
+  { "rang": 1, "id": "<id-alice>", "nom": "Alice", "points": 25, "defisValides": 2 },
+  { "rang": 2, "id": "<id-bob>", "nom": "Bob", "points": 10, "defisValides": 1 }
 ]
 ```
 
